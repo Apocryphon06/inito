@@ -7,8 +7,10 @@ function NotFound() {
 
   useEffect(() => {
     setTimeout(() => {
+      // eslint-disable-next-line
       navigate("/");
     }, 5000);
+    // eslint-disable-next-line
   }, []);
 
   return (

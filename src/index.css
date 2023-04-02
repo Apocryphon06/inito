@@ -5,3 +5,12 @@
 body {
   background-color: white;
 }
+
+.swiper-container {
+  height: max-content;
+  @apply lg:h-[50vh];
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #1F94AA !important;
+}
