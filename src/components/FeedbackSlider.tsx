@@ -7,8 +7,6 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-import arrow from "../../assets/icons/arrow.svg";
-
 // import required modules
 import SwiperCore, {
   Navigation,
