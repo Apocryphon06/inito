@@ -25,6 +25,7 @@ import breeze from "../assets/shapes/breeze.svg";
 import firework from "../assets/shapes/firework.svg";
 import FeedbackCard from "../FeedbackCard";
 import FeedbackSlider from "../FeedbackSlider";
+import Footer from "../Footer";
 
 // import { Rating } from "@mui/material";
 
@@ -344,14 +345,14 @@ function Home() {
             ))}
           </div>
         </div>
-
-        
       </div>
       <br />
 
-        <FeedbackSlider />
-        <br />
-        <br />
+      <FeedbackSlider />
+      <br />
+      <br />
+
+      <Footer/>
     </div>
   );
 }
