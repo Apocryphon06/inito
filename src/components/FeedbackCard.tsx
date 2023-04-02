@@ -6,7 +6,7 @@ import infinity from "./assets/shapes/infinity.svg";
 function FeedbackCard() {
   return (
     <React.Fragment>
-      <div className="flex justify-end relative top-[60px] right-[50px]">
+      <div className="flex justify-end relative top-[60px] lg:right-[50px] right-[20px]">
         <img src={particles} alt={particles} />
       </div>
       <div className="flex lg:w-[1190px] lg:m-auto lg:flex-row flex-col-reverse justify-around lg:items-center bg-[#F7F7FE] lg:p-5 p-7 lg:gap-0 gap-5 rounded-[40px] lg:h-[193px] m-5">

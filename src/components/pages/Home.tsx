@@ -318,7 +318,7 @@ function Home() {
         <br />
 
         <div className="flex lg:flex-row flex-col lg:m-0 m-5 items-center justify-between">
-          <div className="p-5">
+          <div className="py-5">
             <p className="lg:text-4xl text-3xl font-bold text-[#112D35] lg:w-[441px]">
               Your own fertility lab at your{" "}
               <span className="border-b-4 border-[#1F94AA]">fingertips</span>
@@ -350,7 +350,6 @@ function Home() {
       <br />
 
         <FeedbackSlider />
-
         <br />
         <br />
     </div>
